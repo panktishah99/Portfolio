@@ -126,14 +126,9 @@ export const socialBrands: socialBrandsTypes[] = [
 
 export const counterLists: counterListsType[] = [
   {
-    id: 1,
-    title: "Awesomeness",
-    value: 100,
-  },
-  {
     id: 2,
     title: "Year of Experience",
-    value: 4,
+    value: 3,
   },
   {
     id: 3,

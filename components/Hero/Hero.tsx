@@ -116,11 +116,13 @@ export default function Hero() {
               position="left"
               icon={<Mail size={18} />}
               title="Email Me"
+              onClick={() => { window.open("mailto:panktibshah229@gmail.com", "_blank"); }}
             />
             <Button
               position="left"
               icon={<Calendar1 size={18} />}
               title="Schedule Call"
+              onClick={() => { window.open("https://calendly.com/pankti99-uw/30min", "_blank"); }}
             />
           </motion.div>
         </div>

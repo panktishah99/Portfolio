@@ -22,15 +22,15 @@ export default function ContactPage() {
             <div className="flex  items-start flex-none flex-nowrap  w-full gap-5 h-min justify-start p-0 relative">
               <Button
                 position="left"
-                className="w-min"
                 icon={<Mail size={18} />}
                 title="Email Me"
+                onClick={() => { window.open("mailto:panktibshah229@gmail.com", "_blank"); }}
               />
               <Button
                 position="left"
-                className="w-min"
                 icon={<Calendar1 size={18} />}
                 title="Schedule Call"
+                onClick={() => { window.open("https://calendly.com/pankti99-uw/30min", "_blank"); }}
               />
             </div>
           </div>
